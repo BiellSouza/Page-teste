@@ -1,0 +1,309 @@
+body {
+  background: floralwhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgreen;
+  padding:10px;
+  width: 80%;
+  margin-left: 90px;
+  
+  
+}
+
+.navegacao .icon {
+  padding-right: 90px;
+}
+
+.navegacao .icon span {
+  padding-right: 30px;
+  color: white;
+}
+
+.navegacao .social a{
+  padding-right: 20px;
+  color: white;
+}
+
+
+
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero .logo {
+  padding-left: 70px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.hero .options {
+  
+  display: flex;
+  padding-right: 40px;
+  
+}
+
+.hero .options .pages a{
+  text-decoration: none;
+  color: #000;
+  padding-right: 20px;
+  margin-left: 50px;
+}
+
+.hero .options .btn {
+  height: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  margin-left: 20px;
+  padding-right: 20px;
+  z-index: 2;
+}
+
+#myList {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 90px;
+  right: 245px;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  
+}
+
+#myList li {
+      padding: 5px;
+      cursor: pointer;
+  
+}
+
+
+#linksList {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  right: 140px;
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  
+}
+
+#linksList li {
+      padding: 5px;
+      cursor: pointer;
+    
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.main-image img {
+  width: 89%;
+  position: relative;
+  padding-left: 10px;
+  bottom: 40px;
+  z-index: -1;
+  
+}
+
+.texto-sobreposto {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  z-index: ;
+  
+}
+
+.texto-sobreposto h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 240%);
+  top: 30px;
+  width: 80%;
+  
+  
+}
+
+.paragrafo {
+  text-align: center;
+  color: #fff;
+}
+
+.paragrafo p {
+  width: 55%;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 900%);
+  top: 30px;
+}
+
+.acesso {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-login button{
+  color: black;
+  position: relative;
+  bottom: 190px;
+  width: 100%;
+  margin-left: 10px;
+  padding: 5px;
+  
+  
+}
+
+.btn-page {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-page .botaum {
+  position: relative;
+  bottom: 145px;
+  left: 340px;
+}
+
+.meio-baixo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.meio-baixo h1 {
+  position: relative;
+  bottom: 100px;
+  left: 10px;
+  color: darkgreen;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+.line {
+  width: 70%;
+  border: 1px solid #fff;
+  
+}
+
+hr{
+  position: relative;
+  bottom: 80px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.lore {
+  display: flex;
+}
+
+.lore p {
+  text-align: center;
+  width: 60%;
+  position: relative;
+  left: 190px;
+  bottom: 80px;
+}
+
+.box figure {
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  width: 20%;
+  margin-top: -80px;
+  margin-left: 150px;
+  padding-bottom: 40px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  
+  
+  
+}
+
+.box figure img{
+  width: 99.20%;
+  
+  
+}
+
+.box figcaption {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.box-two figure {
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  width: 20%;
+  margin-top: -244px;
+  margin-left: 380px;
+  padding-bottom: 40px;
+  
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+
+  
+}
+
+.box-two figure img{
+  width: 99.20%;
+  
+  
+}
+
+.box-two figcaption {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+.box-end figure {
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  width: 20%;
+  margin-top: -244px;
+  margin-left: 608px;
+  padding-bottom: 40px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  
+  
+  
+}
+
+.box-end figure img{
+  width: 99.20%;
+  
+  
+}
+
+.box-end figcaption {
+  text-align: center;
+  padding-top: 50px;
+
+}
